@@ -8,7 +8,7 @@ import datetime as dt
 
 subcount = 0
 sub_reddit = 'PremierLeague'
-beginning = int(dt.datetime(2019, 8, 2, 0,0,0).timestamp())#13th Aug 2016 beginning of PL
+beginning = int(dt.datetime(2019, 8, 2, 0,0,0).timestamp())   #13th Aug 2016 beginning of PL
 ending = int(dt.datetime(2020, 3, 8, 0, 0, 0).timestamp())   #21st May 2017 last match ofPL
 max_num = 1000                                              #Pushshift's allowed limit 
 data_dict = {}
