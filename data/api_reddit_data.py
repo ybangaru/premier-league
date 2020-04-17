@@ -4,7 +4,6 @@ import time
 import json
 import requests
 import datetime as dt
-#import plfunctions as pl
 
 subcount = 0
 sub_reddit = 'PremierLeague'
